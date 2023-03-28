@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        double miki=0.0;
+        double miky=0.0;
         TextView text1 = findViewById(R.id.textView);
         TextInputLayout hi = findViewById(R.id.H);
         TextInputLayout we = findViewById(R.id.W);
@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                h.setText(Double.toString(miki));
-                w.setText(Double.toString(miki));
-                t2.setText(Double.toString(miki));
+                h.setText(Double.toString(miky));
+                w.setText(Double.toString(miky));
+                t2.setText(Double.toString(miky));
 
 
             }
